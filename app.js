@@ -48,9 +48,9 @@ window.onload = function(){
         removeErr();
     })
 
-    document.body.addEventListener('mouseleave',()=>{
-        showModal();
-    });
+  
+    showModal();
+  
 
     closeButton.addEventListener('click',()=>{
         closeModal();
